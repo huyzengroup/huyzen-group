@@ -4,45 +4,41 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Huyzen Group | Solar Installations & Maintenance in Limpopo</title>
-<meta name="description" content="Huyzen Group is a trusted solar energy company in Vaalwater, Limpopo. We do solar installations, supply solar products, and residential maintenance. Free quotes available.">
+<title>Huyzen Group | Professional Solar Installations in Limpopo</title>
+<meta name="description" content="Huyzen Group provides professional solar installations, solar products, and residential maintenance in Vaalwater, Limpopo. Get a free solar quote today.">
 
 <style>
 :root{
   --primary:#0b2b45;
-  --secondary:#1fa86e;
   --accent:#f5b700;
-  --light:#f4f7fb;
+  --light:#f5f7fa;
   --dark:#0b1320;
 }
 *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
 body{background:#fff;color:var(--dark);line-height:1.6}
 .container{max-width:1200px;margin:auto;padding:0 20px}
-section{padding:80px 0}
-h1,h2,h3{line-height:1.2}
-h1{font-size:2.8rem}
-h2{font-size:2.2rem;margin-bottom:20px}
+section{padding:90px 0}
+h1{font-size:3rem;line-height:1.2}
+h2{font-size:2.3rem;margin-bottom:20px}
+h3{margin-bottom:10px}
 p{margin-bottom:15px}
 
 .btn{
   display:inline-block;
-  padding:15px 30px;
   background:var(--accent);
   color:#000;
+  padding:15px 32px;
   border-radius:8px;
   font-weight:bold;
   text-decoration:none;
 }
-.btn-outline{
-  background:transparent;
-  color:#fff;
-  border:2px solid #fff;
-  margin-left:10px;
-}
 
 /* HERO */
 .hero{
-  background:linear-gradient(120deg,#0b2b45,#0f3c6e);
+  background:linear-gradient(rgba(11,43,69,.85),rgba(11,43,69,.85)),
+             url('https://images.unsplash.com/photo-1581091870627-3bcb0d1c1f34');
+  background-size:cover;
+  background-position:center;
   color:#fff;
 }
 .hero-grid{
@@ -51,14 +47,14 @@ p{margin-bottom:15px}
   gap:50px;
   align-items:center;
 }
-.hero img{
-  max-width:100%;
+.hero-box{
   background:#fff;
-  padding:15px;
-  border-radius:16px;
+  padding:30px;
+  border-radius:18px;
+  color:#000;
 }
 
-/* TRUST BAR */
+/* TRUST */
 .trust{
   background:var(--light);
 }
@@ -68,52 +64,57 @@ p{margin-bottom:15px}
   gap:30px;
   text-align:center;
 }
-.trust-box{
+.trust-card{
   background:#fff;
-  padding:30px;
-  border-radius:14px;
-  box-shadow:0 10px 25px rgba(0,0,0,.08);
+  padding:35px;
+  border-radius:18px;
+  box-shadow:0 10px 30px rgba(0,0,0,.08);
 }
 
 /* SERVICES */
-.services{background:#fff}
 .services-grid{
   display:grid;
   grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-  gap:30px;
+  gap:35px;
 }
-.service-card{
+.service{
   background:var(--light);
-  padding:35px;
-  border-radius:16px;
+  padding:40px;
+  border-radius:20px;
 }
 
-/* WHY US */
-.why{
-  background:var(--primary);
-  color:#fff;
+/* BRANDS */
+.brands{
+  background:#fff;
 }
-.why-grid{
+.brands-grid{
   display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:50px;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:40px;
+  align-items:center;
+  justify-items:center;
 }
-ul{margin-left:18px}
-li{margin:10px 0}
+.brands img{
+  max-width:160px;
+  filter:grayscale(100%);
+  opacity:.85;
+}
 
 /* CONTACT */
 .contact{
-  background:var(--light);
+  background:var(--primary);
+  color:#fff;
 }
 .contact-grid{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:40px;
+  gap:50px;
 }
 form{
   background:#fff;
-  padding:30px;
-  border-radius:16px;
+  color:#000;
+  padding:35px;
+  border-radius:20px;
 }
 label{display:block;margin:12px 0 6px;font-weight:bold}
 input,textarea{
@@ -149,8 +150,8 @@ footer{
 }
 
 @media(max-width:900px){
-  .hero-grid,.why-grid,.contact-grid{grid-template-columns:1fr}
-  h1{font-size:2.2rem}
+  .hero-grid,.contact-grid{grid-template-columns:1fr}
+  h1{font-size:2.3rem}
 }
 </style>
 </head>
@@ -161,67 +162,62 @@ footer{
 <section class="hero">
   <div class="container hero-grid">
     <div>
-      <h1>Reliable Solar Energy Solutions for Your Home</h1>
+      <h1>Power Your Home With Reliable Solar Energy</h1>
       <p>
-        Huyzen Group is a trusted solar energy company in <strong>Vaalwater, Limpopo</strong>.
-        We specialize in <strong>solar installations</strong>, <strong>solar product supply</strong>,
-        and <strong>residential maintenance</strong>.
+        Huyzen Group delivers professional <strong>solar installations</strong>,
+        quality <strong>solar products</strong>, and reliable
+        <strong>residential maintenance</strong> in <strong>Limpopo</strong>.
       </p>
       <a href="#contact" class="btn">Get a Free Quote</a>
-      <a href="#services" class="btn-outline">Our Services</a>
     </div>
-    <img src="logo.png" alt="Huyzen Group Logo">
+
+    <div class="hero-box">
+      <img src="logo.png" alt="Huyzen Group Logo" style="max-width:100%;margin-bottom:20px;">
+      <p><strong>📞 067 744 9733</strong></p>
+      <p>📍 Vaalwater, Limpopo 0530</p>
+      <p>✉️ huyzengroup@gmail.com</p>
+    </div>
   </div>
 </section>
 
 <!-- TRUST -->
 <section class="trust">
   <div class="container trust-grid">
-    <div class="trust-box">⚡ Professional Solar Installations</div>
-    <div class="trust-box">🔋 Quality Solar Products</div>
-    <div class="trust-box">🛠 Reliable Home Maintenance</div>
-    <div class="trust-box">📍 Limpopo Based & Local</div>
+    <div class="trust-card">☀️ Professional Solar Installations</div>
+    <div class="trust-card">🔋 Trusted Solar Brands</div>
+    <div class="trust-card">🛠 Complete Home Maintenance</div>
+    <div class="trust-card">📍 Limpopo Based & Local</div>
   </div>
 </section>
 
 <!-- SERVICES -->
-<section id="services" class="services">
+<section class="services">
   <div class="container">
-    <h2>Our Services</h2>
+    <h2>Our Solar & Maintenance Services</h2>
     <div class="services-grid">
-      <div class="service-card">
-        <h3>☀️ Solar Installations</h3>
-        <p>Complete residential solar system design and installation tailored to your energy needs.</p>
+      <div class="service">
+        <h3>Solar Installations</h3>
+        <p>Complete residential solar system design, installation, and commissioning.</p>
       </div>
-      <div class="service-card">
-        <h3>🔋 Solar Product Supply</h3>
-        <p>We supply panels, inverters, batteries, and accessories from trusted brands.</p>
+      <div class="service">
+        <h3>Solar Product Supply</h3>
+        <p>Panels, inverters, batteries, and accessories from industry-leading brands.</p>
       </div>
-      <div class="service-card">
-        <h3>🛠 Residential Maintenance</h3>
+      <div class="service">
+        <h3>Residential Maintenance</h3>
         <p>Solar servicing, electrical repairs, and general home maintenance.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- WHY US -->
-<section class="why">
-  <div class="container why-grid">
-    <div>
-      <h2>Why Choose Huyzen Group?</h2>
-      <p>We focus on quality workmanship, honest advice, and long-term reliability.</p>
-      <ul>
-        <li>Experienced solar installers</li>
-        <li>High-quality components</li>
-        <li>Transparent pricing</li>
-        <li>After-installation support</li>
-      </ul>
-    </div>
-    <div>
-      <p><strong>Office Number:</strong> 067 744 9733</p>
-      <p><strong>Email:</strong> huyzengroup@gmail.com</p>
-      <p><strong>Location:</strong> Vaalwater, Limpopo 0530</p>
+<!-- BRANDS -->
+<section class="brands">
+  <div class="container">
+    <h2 style="text-align:center;">Trusted Solar Brands We Use</h2>
+    <div class="brands-grid">
+      <img src="victron.png" alt="Victron Energy">
+      <img src="sunsynk.png" alt="Sunsynk">
     </div>
   </div>
 </section>
@@ -230,18 +226,18 @@ footer{
 <section id="contact" class="contact">
   <div class="container contact-grid">
     <div>
-      <h2>Request a Free Quote</h2>
-      <p>Fill in the form and we’ll get back to you as soon as possible.</p>
+      <h2>Request a Free Solar Quote</h2>
+      <p>Tell us about your energy needs and we’ll get back to you.</p>
     </div>
 
     <form action="https://formsubmit.co/huyzengroup@gmail.com" method="POST">
-      <input type="hidden" name="_subject" value="New enquiry from Huyzen Group website">
       <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="New enquiry from Huyzen Group website">
 
       <label>Full Name</label>
       <input type="text" name="name" required>
 
-      <label>Phone Number</label>
+      <label>Phone</label>
       <input type="tel" name="phone" required>
 
       <label>Email</label>
@@ -260,7 +256,6 @@ footer{
   © 2026 Huyzen Group | Solar Installations & Maintenance
 </footer>
 
-<!-- WhatsApp -->
 <a class="whatsapp" href="https://wa.me/27677449733" target="_blank">🟢</a>
 
 </body>
